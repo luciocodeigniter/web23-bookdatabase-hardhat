@@ -1,0 +1,6 @@
+# frase mnemonic da metamask (12 palavras)
+SECRET=
+# obtida no painel da infura
+INFURA_URL=
+# obtida em https://etherscan.io/myapikey
+API_KEY=

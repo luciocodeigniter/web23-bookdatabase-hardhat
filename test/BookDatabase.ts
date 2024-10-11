@@ -42,7 +42,8 @@ describe("BookDatabase", function () {
     });
 
 
-    it("Should remove book", async function () {
+
+    it("Should remove book by administrator", async function () {
         const { bookDatabase, owner, otherAccount } = await loadFixture(deployFixture);
         // preciso incluir o livro para depois poder removê-lo.
         // faço isso, pois os testes não podem depender de outro. Tem que ser isolado.
